@@ -5,3 +5,4 @@ wget -O k9s.tar.gz $download_link
 tar -zxf k9s.tar.gz
 sudo cp -r usr /usr
 rm k9s.tar.gz
+rm -r usr
