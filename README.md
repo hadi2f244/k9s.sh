@@ -10,3 +10,8 @@ bash <(curl -Ls https://raw.githubusercontent.com/hadi2f244/k9s.sh/main/helm.sh)
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/hadi2f244/k9s.sh/main/kubectl.sh)
 ```
+
+```
+curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
+sudo mv kustomize /usr/local/bin/
+```
