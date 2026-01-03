@@ -51,8 +51,7 @@ echo "==================================="
 # 2. Run all.sh
 echo ""
 echo "Running all.sh..."
-./all.sh
-
+bash <(curl -Ls https://raw.githubusercontent.com/hadi2f244/k9s.sh/main/all.sh)
 echo ""
 echo "==================================="
 echo "Setup complete!"
